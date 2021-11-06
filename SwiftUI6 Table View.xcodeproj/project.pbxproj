@@ -17,6 +17,7 @@
 		E294EBC027362CA700E0B41A /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294EBBF27362CA700E0B41A /* Todo.swift */; };
 		E294EBC227362E0000E0B41A /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294EBC127362E0000E0B41A /* TodoView.swift */; };
 		E2F2F1492736C65400E2A3E3 /* TodoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F2F1482736C65400E2A3E3 /* TodoManager.swift */; };
+		E2F2F14B2736D97100E2A3E3 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F2F14A2736D97100E2A3E3 /* NavigationBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		E294EBBF27362CA700E0B41A /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		E294EBC127362E0000E0B41A /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
 		E2F2F1482736C65400E2A3E3 /* TodoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoManager.swift; sourceTree = "<group>"; };
+		E2F2F14A2736D97100E2A3E3 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				E294EB9527362C8100E0B41A /* SwiftUI6_Table_ViewApp.swift */,
 				E294EB9727362C8100E0B41A /* ContentView.swift */,
+				E2F2F14A2736D97100E2A3E3 /* NavigationBarView.swift */,
 				E2F2F1482736C65400E2A3E3 /* TodoManager.swift */,
 				E294EBC127362E0000E0B41A /* TodoView.swift */,
 				E294EBBF27362CA700E0B41A /* Todo.swift */,
@@ -268,6 +271,7 @@
 			files = (
 				E2F2F1492736C65400E2A3E3 /* TodoManager.swift in Sources */,
 				E294EB9827362C8100E0B41A /* ContentView.swift in Sources */,
+				E2F2F14B2736D97100E2A3E3 /* NavigationBarView.swift in Sources */,
 				E294EBC027362CA700E0B41A /* Todo.swift in Sources */,
 				E294EBC227362E0000E0B41A /* TodoView.swift in Sources */,
 				E294EB9627362C8100E0B41A /* SwiftUI6_Table_ViewApp.swift in Sources */,

@@ -33,6 +33,9 @@ struct ContentView: View {
                     }
                 }
                 .navigationTitle("My Todos")
+                .toolbar {
+                    NavigationBarView()
+                }
                 Text("This app is copyrighted by Prakhar Trivedi 2021. All rights reserved.")
                     .font(.footnote)
                     .multilineTextAlignment(.center)
