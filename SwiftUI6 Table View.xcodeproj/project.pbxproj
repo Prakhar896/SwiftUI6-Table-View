@@ -14,6 +14,9 @@
 		E294EBA727362C8400E0B41A /* SwiftUI6_Table_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294EBA627362C8400E0B41A /* SwiftUI6_Table_ViewTests.swift */; };
 		E294EBB127362C8400E0B41A /* SwiftUI6_Table_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294EBB027362C8400E0B41A /* SwiftUI6_Table_ViewUITests.swift */; };
 		E294EBB327362C8400E0B41A /* SwiftUI6_Table_ViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294EBB227362C8400E0B41A /* SwiftUI6_Table_ViewUITestsLaunchTests.swift */; };
+		E294EBC027362CA700E0B41A /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294EBBF27362CA700E0B41A /* Todo.swift */; };
+		E294EBC227362E0000E0B41A /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294EBC127362E0000E0B41A /* TodoView.swift */; };
+		E2F2F1492736C65400E2A3E3 /* TodoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F2F1482736C65400E2A3E3 /* TodoManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		E294EBAC27362C8400E0B41A /* SwiftUI6 Table ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI6 Table ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E294EBB027362C8400E0B41A /* SwiftUI6_Table_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI6_Table_ViewUITests.swift; sourceTree = "<group>"; };
 		E294EBB227362C8400E0B41A /* SwiftUI6_Table_ViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI6_Table_ViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E294EBBF27362CA700E0B41A /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		E294EBC127362E0000E0B41A /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+		E2F2F1482736C65400E2A3E3 /* TodoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				E294EB9527362C8100E0B41A /* SwiftUI6_Table_ViewApp.swift */,
 				E294EB9727362C8100E0B41A /* ContentView.swift */,
+				E2F2F1482736C65400E2A3E3 /* TodoManager.swift */,
+				E294EBC127362E0000E0B41A /* TodoView.swift */,
+				E294EBBF27362CA700E0B41A /* Todo.swift */,
 				E294EB9927362C8400E0B41A /* Assets.xcassets */,
 				E294EB9B27362C8400E0B41A /* Preview Content */,
 			);
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2F2F1492736C65400E2A3E3 /* TodoManager.swift in Sources */,
 				E294EB9827362C8100E0B41A /* ContentView.swift in Sources */,
+				E294EBC027362CA700E0B41A /* Todo.swift in Sources */,
+				E294EBC227362E0000E0B41A /* TodoView.swift in Sources */,
 				E294EB9627362C8100E0B41A /* SwiftUI6_Table_ViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,7 +431,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI6 Table View/Preview Content\"";
-				DEVELOPMENT_TEAM = 49JL8262M2;
+				DEVELOPMENT_TEAM = XL5JK4F896;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -448,7 +460,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI6 Table View/Preview Content\"";
-				DEVELOPMENT_TEAM = 49JL8262M2;
+				DEVELOPMENT_TEAM = XL5JK4F896;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
