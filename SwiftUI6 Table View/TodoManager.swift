@@ -16,4 +16,8 @@ class TodoManager: ObservableObject {
         Todo(name: "Conform to indetifiable")
     ]
     
+    func addTodo(newTodo: String) {
+        self.todos.append(Todo(name: newTodo))
+    }
+    
 }

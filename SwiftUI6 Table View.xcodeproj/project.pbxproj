@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E234AA372737CF3F001ECAF4 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E234AA362737CF3F001ECAF4 /* HelpView.swift */; };
+		E234AA392737D26C001ECAF4 /* AddTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E234AA382737D26C001ECAF4 /* AddTodoView.swift */; };
 		E294EB9627362C8100E0B41A /* SwiftUI6_Table_ViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294EB9527362C8100E0B41A /* SwiftUI6_Table_ViewApp.swift */; };
 		E294EB9827362C8100E0B41A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294EB9727362C8100E0B41A /* ContentView.swift */; };
 		E294EB9A27362C8400E0B41A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E294EB9927362C8400E0B41A /* Assets.xcassets */; };
@@ -17,7 +19,6 @@
 		E294EBC027362CA700E0B41A /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294EBBF27362CA700E0B41A /* Todo.swift */; };
 		E294EBC227362E0000E0B41A /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294EBC127362E0000E0B41A /* TodoView.swift */; };
 		E2F2F1492736C65400E2A3E3 /* TodoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F2F1482736C65400E2A3E3 /* TodoManager.swift */; };
-		E2F2F14B2736D97100E2A3E3 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F2F14A2736D97100E2A3E3 /* NavigationBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E234AA362737CF3F001ECAF4 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		E234AA382737D26C001ECAF4 /* AddTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoView.swift; sourceTree = "<group>"; };
 		E294EB9227362C8100E0B41A /* SwiftUI6 Table View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI6 Table View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E294EB9527362C8100E0B41A /* SwiftUI6_Table_ViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI6_Table_ViewApp.swift; sourceTree = "<group>"; };
 		E294EB9727362C8100E0B41A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,7 +54,6 @@
 		E294EBBF27362CA700E0B41A /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		E294EBC127362E0000E0B41A /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
 		E2F2F1482736C65400E2A3E3 /* TodoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoManager.swift; sourceTree = "<group>"; };
-		E2F2F14A2736D97100E2A3E3 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +106,8 @@
 			children = (
 				E294EB9527362C8100E0B41A /* SwiftUI6_Table_ViewApp.swift */,
 				E294EB9727362C8100E0B41A /* ContentView.swift */,
-				E2F2F14A2736D97100E2A3E3 /* NavigationBarView.swift */,
+				E234AA382737D26C001ECAF4 /* AddTodoView.swift */,
+				E234AA362737CF3F001ECAF4 /* HelpView.swift */,
 				E2F2F1482736C65400E2A3E3 /* TodoManager.swift */,
 				E294EBC127362E0000E0B41A /* TodoView.swift */,
 				E294EBBF27362CA700E0B41A /* Todo.swift */,
@@ -270,8 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2F2F1492736C65400E2A3E3 /* TodoManager.swift in Sources */,
+				E234AA372737CF3F001ECAF4 /* HelpView.swift in Sources */,
+				E234AA392737D26C001ECAF4 /* AddTodoView.swift in Sources */,
 				E294EB9827362C8100E0B41A /* ContentView.swift in Sources */,
-				E2F2F14B2736D97100E2A3E3 /* NavigationBarView.swift in Sources */,
 				E294EBC027362CA700E0B41A /* Todo.swift in Sources */,
 				E294EBC227362E0000E0B41A /* TodoView.swift in Sources */,
 				E294EB9627362C8100E0B41A /* SwiftUI6_Table_ViewApp.swift in Sources */,

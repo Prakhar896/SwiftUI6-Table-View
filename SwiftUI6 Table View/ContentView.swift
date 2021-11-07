@@ -16,6 +16,8 @@ struct ContentView: View {
 //    ]
     
     @ObservedObject var todoManager = TodoManager()
+    @State var isActive: Bool = false
+    @State var updater: Bool = false
     
     var body: some View {
         NavigationView {
@@ -34,9 +36,22 @@ struct ContentView: View {
                 }
                 .navigationTitle("My Todos")
                 .toolbar {
-                    NavigationBarView()
+                    ToolbarItem(placement: .navigationBarLeading) {
+                        NavigationLink {
+                            HelpView()
+                        } label: {
+                            Text("Help")
+                        }
+                    }
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        NavigationLink(isActive: $isActive) {
+                            AddTodoView(isActive: $isActive, updater: $updater)
+                        } label: {
+                            Image(systemName: "plus")
+                        }
+                    }
                 }
-                Text("This app is copyrighted by Prakhar Trivedi 2021. All rights reserved.")
+                Text("This app is copyrighted by Prakhar Trivedi 2021.\n All rights reserved.")
                     .font(.footnote)
                     .multilineTextAlignment(.center)
             }
